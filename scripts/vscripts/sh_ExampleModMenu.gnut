@@ -1,0 +1,28 @@
+#if UI
+global function UICodeCallback_ExampleModMenu_ModInit
+#endif
+#if SERVER
+global function CodeCallback_ExampleModMenu_ModInit
+#endif
+#if CLIENT
+global function ClientCodeCallback_ExampleModMenu_ModInit
+#endif
+
+#if UI
+void function UICodeCallback_ExampleModMenu_ModInit()
+{
+    MyTestMod_Init() //menu_xmodmenu
+}
+#endif
+
+#if SERVER
+void function CodeCallback_ExampleModMenu_ModInit()
+{
+}
+#endif
+
+#if CLIENT
+void function ClientCodeCallback_ExampleModMenu_ModInit()
+{
+}
+#endif

@@ -1,0 +1,8 @@
+"mod"
+{
+	"name" "Example Mod Menu"
+	"id" "ExampleModMenu"
+	"description" "Example Mod Menu addition that includes 2 mod menus"
+	"version" "0.1"
+	"author" "ReGlitched"
+}
