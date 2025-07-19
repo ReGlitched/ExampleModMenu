@@ -16,7 +16,8 @@ void function MyTestMod_SetupMainMenu()
 		SetupModMenu( "Spawn NPC at Crosshair [Enemy]", SetDevMenu_AISpawnEnemy )
 		SetupModCommand( "", "give blank" )
 
-		SetupModCommand( "Marksman: Triple Take", "give mp_weapon_doubletake" )
+		SetupModCommand( "Recharge Abilities", "recharge" )
+		SetupModCommand( "Give Current Ammo", "givecurrentammo" )
 	}
 	else
 	{
